@@ -95,6 +95,7 @@ function printEverything() {
    ul.setAttribute('id', 'unorderedListOfBMWs');
    for(incThroughArr = 0; incThroughArr < listOfVehicles.length; incThroughArr++) {
       let li = document.createElement('li');
+      li.setAttribute('id', 'vehicle');
       currentVehicle = listOfVehicles[incThroughArr];
       li.appendChild(document.createTextNode(currentVehicle.year + ' ' + currentVehicle.model + ' ' + currentVehicle.type));
       ul.appendChild(li);

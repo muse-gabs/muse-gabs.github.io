@@ -30,6 +30,7 @@ li a:hover {
   text-align: center;
   list-style: inside;
   background-color: white;
+  overflow: auto;
 }
 
 #vehicle {

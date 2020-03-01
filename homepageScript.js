@@ -26,7 +26,7 @@ function showSlides(n) {
 }
 
 showSlides(); // call showslide method 
-   
+/*   
 function showSlides() 
 { 
     var i; 
@@ -63,3 +63,4 @@ function showSlides()
     // Change image every 2 seconds 
     setTimeout(showSlides, 2000);  
 } 
+*/

@@ -26,5 +26,17 @@ li a:hover {
 
 /* end style for navigation pane */
 
+#unorderedListOfBMWs {
+  text-align: center;
+  list-style: inside;
+  background-color: white;
+}
 
+#vehicle {
+  color: black;
+  text-align: center;
+  padding: none;
+  text-decoration: none;
+  background-color: white;
+}
 

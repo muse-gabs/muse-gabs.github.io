@@ -11,7 +11,7 @@ function currentSlide(n) {
 
 function showSlides(n) {
   var i;
-  var slidesToManipulate = document.getElementsByClassName("slides");
+  var slidesToManipulate = document.getElementsByClassName("picture fade");
   var dots = document.getElementsByClassName("dot");
   if (n > slidesToManipulate.length) {slideIndex = 1}    
   if (n < 1) {slideIndex = slidesToManipulate.length}

@@ -15,7 +15,7 @@ function showSlides(n) {
   var dots = document.getElementsByClassName("dot");
   if (n > slidesToManipulate.length) {slideIndex = 1}    
   if (n < 1) {slideIndex = slidesToManipulate.length}
-  for (i = 0; i < slides.length; i++) {
+  for (i = 0; i < slidesToManipulate.length; i++) {
       slidesToManipulate[i].style.display = "none";  
   }
   for (i = 0; i < dots.length; i++) {

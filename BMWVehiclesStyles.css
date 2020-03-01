@@ -39,5 +39,6 @@ li a:hover {
   padding: none;
   text-decoration: none;
   background-color: white;
+  float: none;
 }
 

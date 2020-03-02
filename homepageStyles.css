@@ -39,6 +39,8 @@ li a:hover {
 /* Hide the images by default */
 .mySlides {
   display: none;
+  min-width:100%;
+  height: 500px;
 }
 
 /* Next & previous buttons */

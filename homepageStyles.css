@@ -48,6 +48,7 @@ img {vertical-align: middle;}
   top: 50%;
   width: auto;
   margin-top: -22px;
+  display: flex;
   color: red;
   font-weight: bold;
   font-size: 18px;

@@ -33,8 +33,10 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slides {
-  width: 1000px;
-  height: 700px;
+  max-width: 1000px;
+  max-height: 700px;
+  width: 100%;
+  height: auto;
   position: relative;
   margin: auto;
 }

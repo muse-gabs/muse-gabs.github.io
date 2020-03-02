@@ -26,7 +26,9 @@ function showSlides(n) {
 }
 
 showSlides(); // call showslide method 
-/*   
+   
+let pic = document.getElementsByClassName("picture");
+pic.addEventListener('mouseout',
 function showSlides() 
 { 
     var i; 
@@ -60,7 +62,6 @@ function showSlides()
     slides[slideIndex - 1].style.display = "block"; 
     dots[slideIndex - 1].className += " active"; 
   
-    // Change image every 2 seconds 
-    setTimeout(showSlides, 2000);  
-} 
-*/
+    // Change image every 5 seconds 
+    setTimeout(showSlides, 5000);  
+};

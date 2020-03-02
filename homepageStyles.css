@@ -1,5 +1,5 @@
 /* start style for navigation pane */
-/*ul {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -23,7 +23,7 @@ li a:hover {
   background-color: #111;
 }
 
-*/
+
 /* end style for navigation pane */
 
 .carousel {

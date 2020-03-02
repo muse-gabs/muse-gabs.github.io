@@ -64,4 +64,4 @@ function showSlides()
   
     // Change image every 5 seconds 
     setTimeout(showSlides, 5000);  
-};
+});

@@ -38,6 +38,8 @@ li a:hover {
 
 /* Hide the images by default */
 .mySlides {
+  max-height: 600px;
+  max-width: 100%;
   display: none;
 }
 

@@ -26,19 +26,18 @@ li a:hover {
 
 /* end style for navigation pane */
 
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.picture {display: flex;}
-img {vertical-align: middle;}
+* {box-sizing:border-box}
 
 /* Slideshow container */
 .slides {
   max-width: 1000px;
-  max-height: 700px;
-  width: 100%;
-  height: auto;
   position: relative;
   margin: auto;
+}
+
+/* Hide the images by default */
+.picture {
+  display: none;
 }
 
 /* Next & previous buttons */
@@ -48,8 +47,8 @@ img {vertical-align: middle;}
   top: 50%;
   width: auto;
   margin-top: -22px;
-  display: flex;
-  color: red;
+  padding: 16px;
+  color: white;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -113,16 +112,11 @@ img {vertical-align: middle;}
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
 }

@@ -42,6 +42,7 @@ li a:hover {
 .picture {
   width:100%;
   height:100%;
+  margin:auto;
 }
 
 /* Next & previous buttons */

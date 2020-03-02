@@ -7,7 +7,12 @@ $('#submit-form').on('click', function(e) {
       url: url,
       method: "GET",
       dataType: "json",
-      data: $form.serializeArray()
-   }).success(
+      data: $form.serializeArray(),
+      success: function() {
+         $("<p>Your response has been recorded</p>").appendTo("body");
+      },
+      error: function() {
+         $("<p>There was an error obtaining data</p>").appendTo("body");
+      }
    );
 })

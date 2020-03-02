@@ -1,11 +1,13 @@
-var form = $('#test-form'),
+var $form = $('form#test-form'),
    url = 'https://script.google.com/macros/s/AKfycbzjhVtdQBOd6vuWGPNG_avUgl0xehLyPzxbPKokGE8w-w_evNY/exec'
-   form.submit(function(e){
-      e.preventDefault();
+   
+$('#submit-form').on('click', function(e) {
+   e.preventDefault();
    var jqxhr = $.ajax({
       url: url,
       method: "GET",
       dataType: "json",
-      data: form.serializeObject()
-      });
-});
+      data: $form.serializeObject()
+   }).success(
+   );
+})

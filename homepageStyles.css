@@ -30,12 +30,8 @@ li a:hover {
 
 /* Slideshow container */
 .slides {
-  max-height:600px;
-  max-width:1000px;
-  width:auto;
-  height:auto;
   position: relative;
-  margin: auto;
+  justify-content: center;
 }
 
 /* Hide the images by default */

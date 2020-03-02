@@ -26,5 +26,9 @@ li a:hover {
 
 /* end style for navigation pane */
 .img {
-  width: 100%;
+  margin-left:auto;
+  margin-right:auto; 
+  display:block;
+  max-width:40px; 
+  max-height:40px;
 }

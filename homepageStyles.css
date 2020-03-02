@@ -27,7 +27,7 @@ li a:hover {
 /* end style for navigation pane */
 
 .carousel {
-    height: 500px;
+    height: 600px;
     margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -48,7 +48,7 @@ li a:hover {
     height: 500px;
 }
 @media (min-width: 768px) {
-    .carousel-caption p {
+        .carousel-caption p {
         margin-bottom: 20px;
         font-size: 21px;
         line-height: 1.4;

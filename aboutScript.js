@@ -9,10 +9,10 @@ $('#submit-form').on('click', function(e) {
       dataType: "json",
       data: $form.serializeArray(),
       success: function() {
-         $("<p>Your response has been recorded</p>").appendTo("body");
+         $("<p>Your response has been recorded</p>").appendTo($(".response"));
       },
       error: function() {
-         $("<p>There was an error obtaining data</p>").appendTo("body");
+         $("<p>There was an error obtaining data</p>").appendTo($(".response"));
       }
    });
 })

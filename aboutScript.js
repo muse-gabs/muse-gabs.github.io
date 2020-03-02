@@ -14,5 +14,5 @@ $('#submit-form').on('click', function(e) {
       error: function() {
          $("<p>There was an error obtaining data</p>").appendTo("body");
       }
-   });
+   };
 })

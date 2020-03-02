@@ -37,7 +37,10 @@ li a:hover {
 
 /* Hide the images by default */
 .picture {
-  display: none;
+  max-height:600px;
+  max-width:1000;
+  width:auto;
+  height:auto;
 }
 
 /* Next & previous buttons */

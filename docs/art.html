@@ -9,8 +9,10 @@
 <link rel="stylesheet" href="../static/textstyle.css">
 <script src="../static/topnav.js"></script>
 <script src="../static/landscapeslides.js"></script>
+<script src="../static/portraitslides.js"></script>
 <style>
 .landscapeSlides {display:none}
+.portraitSlides {display:none}
 </style>
 </head>
 <body>
@@ -29,7 +31,7 @@
 <div class="content" style="padding-left:16px">
   <h2>Art</h2>
 
-  <p>This is the art page.(Work in progress, haven't fully developed it yet) These are the crochet/knitting projects that I've worked on over the years. </p>
+  <p>This is the art page.(Work in progress, haven't fully developed it yet) These are the crochet/knitting projects that I've worked on over the years. I think I started crocheting in 2010, but I can't remember exactly when I started. I did end up creating my own designs after getting a hang of it.</p>
 </div>
 
 <div class="crochet-landscape" style="max-width:800px">
@@ -68,7 +70,42 @@
     <button class="num-1" onclick="currentDivLand(12)">12</button>
     <button class="num-1" onclick="currentDivLand(13)">13</button>
     <button class="num-1" onclick="currentDivLand(14)">14</button>
-</div>   
+</div>
+
+<div class="crochet-portrait" style="max-width:500px">
+  <img class="portraitSlides" src="../images/crochet/OVGenjiFront.jpg" style="width:100%">
+  <img class="portraitSlides" src="../images/crochet/OVGenjiBack.jpg" style="width:100%">
+  <img class="portraitSlides" src="../images/crochet/boba.jpg" style="width:100%">
+  <img class="portraitSlides" src="../images/crochet/newCharFront.jpg" style="width:100%">
+  <img class="portraitSlides" src="../images/crochet/oldCharFront.jpg" style="width:100%">
+  <img class="portraitSlides" src="../images/crochet/llsifRuby.jpg" style="width:100%">
+  <img class="portraitSlides" src="../images/crochet/gradBear.jpg" style="width:100%">
+  <img class="portraitSlides" src="../images/crochet/gloveDark.jpg" style="width:100%">
+  <img class="portraitSlides" src="../images/crochet/purpleGlove.jpg" style="width:100%">
+  <img class="portraitSlides" src="../images/crochet/snowflakeRed.jpg" style="width:100%">
+  <img class="portraitSlides" src="../images/crochet/snowflakeWhite.jpg" style="width:100%">
+  <img class="portraitSlides" src="../images/crochet/seasideBlanket.jpg" style="width:100%">
+</div>
+
+<div class="arrows-for-portrait">
+  <div class="arrow-section-2">
+    <button class="arrow-2" onclick="plusDivPor(-1)">< Prev</button>
+    <button class="arrow-2" onclick="plusDivPor(1)">Next ></button>
+  </div>
+    <button class="num-2" onclick="currentDivPor(1)">1</button>
+    <button class="num-2" onclick="currentDivPor(2)">2</button>
+    <button class="num-2" onclick="currentDivPor(3)">3</button>
+    <button class="num-2" onclick="currentDivPor(4)">4</button>
+    <button class="num-2" onclick="currentDivPor(5)">5</button>
+    <button class="num-2" onclick="currentDivPor(6)">6</button>
+    <button class="num-2" onclick="currentDivPor(7)">7</button>
+    <button class="num-2" onclick="currentDivPor(8)">8</button>
+    <button class="num-2" onclick="currentDivPor(9)">9</button>
+    <button class="num-2" onclick="currentDivPor(10)">10</button>
+    <button class="num-2" onclick="currentDivPor(11)">11</button>
+    <button class="num-2" onclick="currentDivPor(12)">12</button>
+</div>
+   
 </body>
 </html>
 

@@ -1,15 +1,15 @@
 var slideIndex = 1;
-showDivs(slideIndex);
+showDivsLand(slideIndex);
 
 function plusDivLand(n) {
-  showDivs(slideIndex += n);
+  showDivsLand(slideIndex += n);
 }
 
 function currentDivLand(n) {
-  showDivs(slideIndex = n);
+  showDivsLand(slideIndex = n);
 }
 
-function showDivs(n) {
+function showDivsLand(n) {
   var i;
   var x = document.getElementsByClassName("landscapeSlides");
   var dots = document.getElementsByClassName("num-1");

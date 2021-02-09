@@ -7,13 +7,9 @@
 <link rel="stylesheet" href="../static/navigationsettings.css">
 <link rel="stylesheet" href="../static/video.css">
 <link rel="stylesheet" href="../static/textstyle.css">
+<link rel="stylesheet" href="../static/landscapeslides.css">
 <script src="../static/topnav.js"></script>
 <script src="../static/landscapeslides.js"></script>
-<script src="../static/portraitslides.js"></script>
-<style>
-.landscapeSlides {display:none}
-.portraitSlides {display:none}
-</style>
 </head>
 <body>
 
@@ -34,44 +30,119 @@
   <p>This is the art page.(Work in progress, haven't fully developed it yet) These are the crochet/knitting projects that I've worked on over the years. I think I started crocheting in 2010, but I can't remember exactly when I started. I did end up creating my own designs after getting a hang of it.</p>
 </div>
 
-<div class="crochet-landscape" style="max-width:800px">
-  <img class="landscapeSlides" src="../images/crochet/cyndaquil.jpg" style="width:100%">
-  <img class="landscapeSlides" src="../images/crochet/cyndaquilFlame.jpg" style="width:100%">
-  <img class="landscapeSlides" src="../images/crochet/lolSona.jpg" style="width:100%">
-  <img class="landscapeSlides" src="../images/crochet/charFlame.jpg" style="width:100%">
-  <img class="landscapeSlides" src="../images/crochet/squirtle.jpg" style="width:100%">
-  <img class="landscapeSlides" src="../images/crochet/pokeball.jpg" style="width:100%">
-  <img class="landscapeSlides" src="../images/crochet/gengar.jpg" style="width:100%">
-  <img class="landscapeSlides" src="../images/crochet/blanket.jpg" style="width:100%">
-  <img class="landscapeSlides" src="../images/crochet/dog.jpg" style="width:100%">  
-  <img class="landscapeSlides" src="../images/crochet/penguin.jpg" style="width:100%">
-  <img class="landscapeSlides" src="../images/crochet/spheal.jpg" style="width:100%">
-  <img class="landscapeSlides" src="../images/crochet/jigglypuff.jpg" style="width:100%">
-  <img class="landscapeSlides" src="../images/crochet/bears.jpg" style="width:100%">
-  <img class="landscapeSlides" src="../images/crochet/cow.jpg" style="width:100%">
-</div>
+<!-- Slideshow container -->
+<div class="slideshow-container">
 
-<div class="arrows-for-landscape">
-  <div class="arrow-section-1">
-    <button class="arrow-1" onclick="plusDivLand(-1)">< Prev</button>
-    <button class="arrow-1" onclick="plusDivLand(1)">Next ></button>
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade" style="display: block;">
+    <div class="numbertext">1 / 14</div>
+    <img src="images/crochet/cyndaquil.jpg" style="width:100%">
+    <div class="text">Cyndaquil Plush</div>
   </div>
-    <button class="num-1" onclick="currentDivLand(1)">1</button>
-    <button class="num-1" onclick="currentDivLand(2)">2</button>
-    <button class="num-1" onclick="currentDivLand(3)">3</button>
-    <button class="num-1" onclick="currentDivLand(4)">4</button>
-    <button class="num-1" onclick="currentDivLand(5)">5</button>
-    <button class="num-1" onclick="currentDivLand(6)">6</button>
-    <button class="num-1" onclick="currentDivLand(7)">7</button>
-    <button class="num-1" onclick="currentDivLand(8)">8</button>
-    <button class="num-1" onclick="currentDivLand(9)">9</button>
-    <button class="num-1" onclick="currentDivLand(10)">10</button>
-    <button class="num-1" onclick="currentDivLand(11)">11</button>
-    <button class="num-1" onclick="currentDivLand(12)">12</button>
-    <button class="num-1" onclick="currentDivLand(13)">13</button>
-    <button class="num-1" onclick="currentDivLand(14)">14</button>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 14</div>
+    <img src="../images/crochet/cyndaquilFlame.jpg" style="width:100%">
+    <div class="text">Cyndaquil Plush</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 14</div>
+    <img src="../images/crochet/lolSona.jpg" style="width:100%">
+    <div class="text">League of Legends Sona Plush</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 14</div>
+    <img src="../images/crochet/charFlame.jpg" style="width:100%">
+    <div class="text">Charmander Plush</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 14</div>
+    <img src="../images/crochet/squirtle.jpg" style="width:100%">
+    <div class="text">Squirtle Plush</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 14</div>
+    <img src="../images/crochet/pokeball.jpg" style="width:100%">
+    <div class="text">Pokeball Plush</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">7 / 14</div>
+    <img src="../images/crochet/gengar.jpg" style="width:100%">
+    <div class="text">Gengar Plush</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">8 / 14</div>
+    <img src="../images/crochet/blanket.jpg" style="width:100%">
+    <div class="text">Spiral Blanket</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">9 / 14</div>
+    <img src="../images/crochet/dog.jpg" style="width:100%">
+    <div class="text">Dog Plush</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">10 / 14</div>
+    <img src="../images/crochet/penguin.jpg" style="width:100%">
+    <div class="text">Penguin Plush</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">11 / 14</div>
+    <img src="../images/crochet/spheal.jpg" style="width:100%">
+    <div class="text">Spheal Plush</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">12 / 14</div>
+    <img src="../images/crochet/jigglypuff.jpg" style="width:100%">
+    <div class="text">Jigglypuff Plush</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">13 / 14</div>
+    <img src="../images/crochet/bears.jpg" style="width:100%">
+    <div class="text">Bears and Marshmellow Plushes</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">14 / 14</div>
+    <img src="../images/crochet/cow.jpg" style="width:100%">
+    <div class="text">Box Cow Plush</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+  <span class="dot" onclick="currentSlide(9)"></span>
+  <span class="dot" onclick="currentSlide(10)"></span>
+  <span class="dot" onclick="currentSlide(11)"></span>
+  <span class="dot" onclick="currentSlide(12)"></span>
+  <span class="dot" onclick="currentSlide(13)"></span>
+  <span class="dot" onclick="currentSlide(14)"></span>
 </div>
 
+<!--
 <div class="crochet-portrait" style="max-width:500px">
   <img class="portraitSlides" src="../images/crochet/OVGenjiFront.jpg" style="width:100%">
   <img class="portraitSlides" src="../images/crochet/OVGenjiBack.jpg" style="width:100%">
@@ -105,7 +176,7 @@
     <button class="num-2" onclick="currentDivPor(11)">11</button>
     <button class="num-2" onclick="currentDivPor(12)">12</button>
 </div>
-   
+-->   
 </body>
 </html>
 

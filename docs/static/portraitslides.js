@@ -18,9 +18,9 @@ function showDivsPor(n) {
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
   }
-  //for (i = 0; i < dots.length; i++) {
-  //  dots[i].className = dots[i].className.replace(" w3-red", "");
-  //}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" selected", "");
+  }
   x[slideIndex2-1].style.display = "block";  
-  //dots[slideIndex2-1].className += " w3-red";
+  dots[slideIndex2-1].className += " selected";
 }
